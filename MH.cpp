@@ -28,9 +28,11 @@
         double alpha = drand48();
         if(alpha<menor){
             std::cout << menor << std::endl;
+            propuesta = temp;
         }
         else{
             std::cout << propuesta << std::endl;
+        
         }
 
      } 
